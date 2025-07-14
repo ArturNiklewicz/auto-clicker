@@ -9,6 +9,11 @@ Ultra-minimalistic auto-clicker that clicks every 30 seconds.
 curl -s https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py | python
 ```
 
+**PowerShell:**
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py" -UseBasicParsing | Select-Object -ExpandProperty Content | python
+```
+
 **macOS/Linux:**
 ```bash
 curl -s https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py | python3
