@@ -11,7 +11,7 @@ curl -s https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click
 
 **PowerShell:**
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py" -UseBasicParsing | Select-Object -ExpandProperty Content | python
+iwr https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py -UseBasicParsing | % Content | python
 ```
 
 **macOS/Linux:**
@@ -22,8 +22,15 @@ curl -s https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click
 ## Save and run later:
 
 **Download and save:**
+
+*Windows CMD:*
 ```cmd
 curl -o click.py https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py
+```
+
+*PowerShell:*
+```powershell
+iwr https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py -OutFile click.py
 ```
 
 **Then run anytime:**
