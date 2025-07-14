@@ -7,5 +7,5 @@ try:import pyautogui
 except:i('pyautogui');import pyautogui
 print("Auto-clicker started. Ctrl+C to stop.")
 try:
- while 1:pyautogui.click();print(f"Click {time.strftime('%H:%M:%S')}");time.sleep(30)
+ while 1:pyautogui.click();print(f"Click {time.strftime('%H:%M:%S')}");time.sleep(5)
 except:print("Stopped.")

@@ -1,6 +1,6 @@
 # Auto-Clicker
 
-Ultra-minimalistic auto-clicker that clicks every 30 seconds.
+Ultra-minimalistic auto-clicker that clicks every 5 seconds.
 
 ## One-liner install & run:
 
