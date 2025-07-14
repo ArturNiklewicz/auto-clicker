@@ -38,6 +38,18 @@ iwr https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py 
 python click.py
 ```
 
+## Troubleshooting:
+
+**"No such file or directory" error:**
+1. Check if file downloaded: `dir` (CMD) or `ls` (PowerShell/Linux)
+2. Make sure you're in the right directory
+3. Try full path: `python C:\path\to\click.py`
+4. Or use: `python .\click.py` (current directory)
+
+**"python not found" error:**
+- Try `python3` instead of `python`
+- Install Python from python.org
+
 ## Features:
 - Cross-platform (macOS, Windows, Linux)
 - Auto-installs dependencies
