@@ -19,6 +19,18 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ArturNiklewicz/auto-cl
 curl -s https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py | python3
 ```
 
+## Save and run later:
+
+**Download and save:**
+```cmd
+curl -o click.py https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py
+```
+
+**Then run anytime:**
+```cmd
+python click.py
+```
+
 ## Features:
 - Cross-platform (macOS, Windows, Linux)
 - Auto-installs dependencies
