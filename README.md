@@ -3,8 +3,15 @@
 Ultra-minimalistic auto-clicker that clicks every 30 seconds.
 
 ## One-liner install & run:
+
+**Windows CMD:**
+```cmd
+curl -s https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py | python
+```
+
+**macOS/Linux:**
 ```bash
-curl -s https://raw.githubusercontent.com/arturniklewicz/auto-clicker/main/click.py | python3
+curl -s https://raw.githubusercontent.com/ArturNiklewicz/auto-clicker/main/click.py | python3
 ```
 
 ## Features:
